@@ -3,6 +3,7 @@ pipeline {
     agent any
     tools {
         maven 'mvn-home' 
+        jdk 'jdk'
     }
     stages {
         stage('Compile stage') {
